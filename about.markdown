@@ -19,7 +19,7 @@ I'm currently searching for summer (and potentially fall) 2023 internships.
 
 - Engineering cool things at [**MIT Lincoln Labs**](https://www.ll.mit.edu/) (remotely after a short yet long summer in Boston)!
 - Developing and handling the eletrical/software subsystems on [**MASA: UMich's Rocketry Team**](https://masa.engin.umich.edu/)
-- Going through the [**DeepLearning.Ai Specilization**](https://www.deeplearning.ai/courses/deep-learning-specialization/) after years of procrastination
+- Going through the [**DeepLearning.Ai Specialization**](https://www.deeplearning.ai/courses/deep-learning-specialization/) after years of procrastination
 - Exploring ways to improve exisiting [**methods of solving optimal control problems**](https://en.wikipedia.org/wiki/Model_predictive_control)
 - Looking for someone who knows how to play bass guitar
 
