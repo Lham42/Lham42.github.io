@@ -7,7 +7,9 @@ permalink: /about/
 ![splat](../me.jpg){:width="35%"}
 ## Hello! I'm Elham.
 
-I'm a junior studying **Computer Engineering** at the Unversity of Michigan in Ann Arbor, but my home is tethered to Toronto, Canada.
+I'm a junior studying **Computer Engineering** at the Unversity of Michigan in Ann Arbor.
+
+Nowadays mostly in AA, I spent a year in Virginia, but ultimately my home is tethered to Toronto, Canada.
 
 I've been exploring embedded systems, control theory and PCB design among other distractions. I'm especially interested in working on these things in the context of **Aerospace** and **Robotics**.
 
