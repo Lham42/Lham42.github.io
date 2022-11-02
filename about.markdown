@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About
+title: "About"
+description: Elham Islam | Computer Engineering student at the Unviersity of Michigan 
 permalink: /about/
 ---
 
