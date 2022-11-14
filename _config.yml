@@ -21,7 +21,7 @@
 title: Elham Islam
 email: eislam@umich.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my site and blog. If you're interested in what's going on in my life or want to get in touch, you've come to the right place!
+  Welcome to my site. If you're interested in what's going on in my life or want to get in touch, you've come to the right place!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://elhamislam.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: elhamislam_

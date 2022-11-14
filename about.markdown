@@ -33,7 +33,7 @@ I'm currently searching for summer (and potentially fall) 2023 internships.
 
 #### If you wish to get in touch, you can try:
 
-- [**Email**](eislam@umich.edu)
+- [**Email**](mailto:eislam@umich.edu)
 - [**Linkedin**](https://www.linkedin.com/in/elham-islam-/)
-- [**Twitter**](https://www.linkedin.com/in/elham-islam-/)
+- [**Twitter**](https://twitter.com/elhamislam_)
 - Yelling really loud
