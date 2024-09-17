@@ -17,10 +17,10 @@ body {
     cursor: pointer;
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover, .fa-goodreads:hover, .fa-github:hover , .navText:hover {
-    color: #800000 !important;
+    color: #008080 !important;
 }
 .fab {
-    color: #000000;
+    color: white;
 }
 /* footer styling */
 #footer {
