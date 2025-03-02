@@ -114,12 +114,18 @@ td:last-child, th:last-child {
 } 
 */
 
-/* All other text elements */
+/* All text elements should have consistent size */
 .text, .introText, p, h1, h2, h3, h4, h5, h6 {
     color: var(--primary-text) !important;
-    font-family: "Proxima Nova", sans-serif;  /* Changed from arial */
-
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 12pt;  /* Adjust this value to your preference */
 }
+
+/* Keep headings larger */
+h1 { font-size: 24pt !important; }
+h2 { font-size: 20pt !important; }
+h3 { font-size: 16pt !important; }
+
 /* Add this to control maximum content width */
 .container {
     max-width: 800px !important;  /* You can adjust this value */
@@ -138,5 +144,35 @@ td:last-child, th:last-child {
     padding-top: 80px;  /* Increased to account for fixed navbar */
     margin-top: 0;      /* Remove top margin */
     min-height: calc(100vh - 80px);  /* Make section fill remaining height */
+}
+
+/* Target only paragraphs in the intro section */
+#intro p {
+    max-width: 1000px;
+}
+
+/* Target all paragraphs in the intro section */
+.content-section p {
+    max-width: 1000px;
+}
+
+/* If the content is in a container */
+.container p {
+    max-width: 1000px;
+}
+
+/* Add !important if needed */
+#intro p {
+    max-width: 1000px !important;
+}
+
+/* Or adjust the container itself */
+.container {
+    max-width: 1000px !important;
+}
+
+/* Keep the table and about page settings as they are */
+.text p, .text table {
+    max-width: 600px;
 }
 
