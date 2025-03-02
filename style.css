@@ -1,78 +1,78 @@
+/* First, import the font in your HTML head or CSS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
+
+/* Define CSS variables for consistent colors */
+:root {
+    --primary-bg: rgba(49, 80, 53, 0.95);  /* For main content */
+    --primary-text: #f1e0c2bc;
+    --accent-hover: #c88704;
+    --nav-bg: rgba(59, 90, 63, 0.95);  /* Slightly different for nav bar */
+}
 
 body { 
-    /* background: #4b00009f !important; */
-    background: #f8f3ee !important;
-}
-
-.nav-link {
-    /* color: #800000 !important; */
-    color: white !important;
+    background: var(--primary-bg) !important;  /* This sets the base background */
+    color: var(--primary-text) !important;  /* Added this */
+    min-height: 100vh;  /* Added to ensure full height coverage */
 }
 
 
-/* social media icons styling */
+/* Then use it in your CSS */
+.text, .introText {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-text);
+}
+
+/* .text, .introText {
+    font-family: akzidenz grotesk, Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--primary-text);
+} */
+
+.text {
+    font-size: 10pt;
+    font-family: "Proxima Nova", sans-serif;
+    max-width: 800px;  /* Adjust this value to your preference */
+    margin: 0 auto;    /* Centers the text if narrower than parent */
+}
+
+.introText {
+    font-size: 20pt;
+    font-family: "Proxima Nova", sans-serif;  /* Changed from Merriweather */
+}
+
+.navbar-nav {
+    font-family: "Proxima Nova", sans-serif;  /* Changed from arial */
+}
+
+.navBack {
+    background-color: var(--nav-bg) !important;  /* This makes nav slightly different */
+}
+
+.nav-link, .navText, .fab {
+    color: var(--primary-text) !important;
+}
+
 .social-icons {
     font-size: 100px;
     cursor: pointer;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover, .fa-goodreads:hover, .fa-github:hover , .navText:hover {
-    color: #008080 !important;
-}
-.fab {
-    color: white;
-}
-/* footer styling */
-#footer {
-    background-color: #808080;
-    text-align: center;
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover, 
+.fa-twitch:hover, 
+.fa-goodreads:hover, 
+.fa-github:hover, 
+.navText:hover {
+    color: var(--accent-hover) !important;
 }
 
-/* about section image css */
-.imageAboutPage {
-    width: 100%;
-}
-
-.imageIntroPage{
-    width: 100%;
-}
-.navbar-nav {
-    font-family: 'Merriweather', serif;
-    color: #800000;
-}
-
-.navBack {
-    /* background-color:  #fce5cce7; */
-    background-color: #4b0000bd;
-}
-
-.navbarScroll.navbarDark {
-    background-color: black;
-}
-
-.navText {
-    /* color: #800000; */
-    color: white;
-}
-
-.text {
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    font-size: 10pt;
-    color: #3d3c3c;
-}
-
-.poopy{
-    background-color: #f8f3ee;
+.poopy {
+    background-color: var(--primary-bg);
     padding-top: 1rem;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
-
-}
-
-.introText{
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    font-size: 30pt;
-    color: #3d3c3c;
 }
 
 #footer {
@@ -80,18 +80,63 @@ body {
     text-align: center;
 }
 
+.imageAboutPage,
+.imageIntroPage {
+    width: 100%;
+}
+
 table {
-    font-family: arial, sans-serif;
+    font-family: "Proxima Nova", sans-serif;  /* Changed from arial */
     border-collapse: collapse;
     width: 100%;
-  }
+    color: var(--primary-text) !important;  /* Added this */
+
+}
   
-  td, th {
-    border: 1px solid #dddddd;
+td, th {
+    border: 1px solid var(--primary-text);
     text-align: left;
-    padding: 8px;
-  }
+    padding: 10px 0;
+}
+
+td:first-child, th:first-child {
+    width: 100px;  /* Adjust this value to your preference */
+    padding: 10px 5px;
+}
+
+td:last-child, th:last-child {
+    padding: 10px 5px;
+}
+
   
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  }
+/* tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);   Changed from #dddddd to semi-transparent white 
+} 
+*/
+
+/* All other text elements */
+.text, .introText, p, h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-text) !important;
+    font-family: "Proxima Nova", sans-serif;  /* Changed from arial */
+
+}
+/* Add this to control maximum content width */
+.container {
+    max-width: 800px !important;  /* You can adjust this value */
+    margin: 0 auto;  /* Centers the container */
+}
+
+/* Make sure these classes are present and used in both pages */
+.intro-section, .about-section {
+    /* background-color: var(--primary-bg) !important; */
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.content-section {
+    padding-top: 80px;  /* Increased to account for fixed navbar */
+    margin-top: 0;      /* Remove top margin */
+    min-height: calc(100vh - 80px);  /* Make section fill remaining height */
+}
+
