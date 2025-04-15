@@ -1,19 +1,20 @@
 /* First, import the font in your HTML head or CSS */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
 
 /* Define CSS variables for consistent colors */
 :root {
-    --primary-bg: rgba(49, 80, 53, 0.95);  /* For main content */
-    --primary-text: #f1e0c2bc;
-    --accent-hover: #c88704;
-    --nav-bg: rgba(59, 90, 63, 0.95);  /* Slightly different for nav bar */
+    --primary-bg: #BBBDF6;  /* Periwinkle */
+    --primary-text: #ffffff;  /* Golden yellow */
+    --accent-hover: #797A9E;  /* Cool gray */
+    --nav-bg: rgba(152, 147, 218, 0.95);  /* Tropical indigo with transparency */
 }
 
 body { 
-    background: var(--primary-bg) !important;  /* This sets the base background */
-    color: var(--primary-text) !important;  /* Added this */
-    min-height: 100vh;  /* Added to ensure full height coverage */
+    background: var(--primary-bg) !important;
+    color: var(--primary-text) !important;
+    min-height: 100vh;
 }
 
 
@@ -41,11 +42,11 @@ body {
 }
 
 .navbar-nav {
-    font-family: "Proxima Nova", sans-serif;  /* Changed from arial */
+    font-family: "DM Mono", monospace;
 }
 
 .navBack {
-    background-color: var(--nav-bg) !important;  /* This makes nav slightly different */
+    background-color: var(--nav-bg) !important;
 }
 
 .nav-link, .navText, .fab {
@@ -86,7 +87,7 @@ body {
 }
 
 table {
-    font-family: "Proxima Nova", sans-serif;  /* Changed from arial */
+    font-family: "DM Mono", monospace;
     border-collapse: collapse;
     width: 100%;
     color: var(--primary-text) !important;  /* Added this */
@@ -116,9 +117,8 @@ td:last-child, th:last-child {
 
 /* All text elements should have consistent size */
 .text, .introText, p, h1, h2, h3, h4, h5, h6 {
+    font-family: "DM Mono", monospace;
     color: var(--primary-text) !important;
-    font-family: "Proxima Nova", sans-serif;
-    font-size: 12pt;  /* Adjust this value to your preference */
 }
 
 /* Keep headings larger */
@@ -141,9 +141,9 @@ h3 { font-size: 16pt !important; }
 }
 
 .content-section {
-    padding-top: 80px;  /* Increased to account for fixed navbar */
-    margin-top: 0;      /* Remove top margin */
-    min-height: calc(100vh - 80px);  /* Make section fill remaining height */
+    padding-top: 80px;  /* Increase padding to ensure content is visible */
+    margin-top: 0;
+    min-height: calc(100vh - 80px);
 }
 
 /* Target only paragraphs in the intro section */
@@ -174,5 +174,69 @@ h3 { font-size: 16pt !important; }
 /* Keep the table and about page settings as they are */
 .text p, .text table {
     max-width: 600px;
+}
+
+/* Add these new rules to remove potential extra spacing */
+.container.mt-4 {
+    margin-top: 0 !important;
+}
+
+.container.pt-4 {
+    padding-top: 0 !important;
+}
+
+.row.mt-4 {
+    margin-top: 0 !important;
+}
+
+/* You can also define specific classes for different weights */
+.light-text {
+    font-weight: 300;
+}
+
+.regular-text {
+    font-weight: 400;
+}
+
+.medium-text {
+    font-weight: 500;
+}
+
+/* For italic versions */
+.light-italic {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.regular-italic {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.medium-italic {
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Also update these specific elements */
+.navbar-nav {
+    font-family: "DM Mono", monospace;
+}
+
+table {
+    font-family: "DM Mono", monospace;
+}
+
+/* Import the font directly in CSS as well */
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+/* Apply to all text elements with !important */
+body, p, h1, h2, h3, h4, h5, h6, span, div, li, a, td, th, .text, .introText, .navbar-nav, .nav-link, .navText {
+    font-family: "DM Mono", monospace !important;
+}
+
+/* Specifically target any elements that might be using a different font */
+.navbar-brand, .navbar-nav .nav-link, .navbar-toggler {
+    font-family: "DM Mono", monospace !important;
 }
 
