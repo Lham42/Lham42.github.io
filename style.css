@@ -1,48 +1,69 @@
-/* First, import the font in your HTML head or CSS */
+/* Font imports */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
-
-/* Define CSS variables for consistent colors */
+/* Define CSS variables for consistent colors and fonts */
 :root {
+    /* Colors */
     --primary-bg: #BBBDF6;  /* Periwinkle */
     --primary-text: #ffffff;  /* Golden yellow */
     --accent-hover: #797A9E;  /* Cool gray */
     --nav-bg: rgba(152, 147, 218, 0.95);  /* Tropical indigo with transparency */
+    
+    /* Fonts - CHANGE THIS ONE LINE TO UPDATE ALL FONTS */
+    --main-font: "Red Hat Mono", monospace;
+    --heading-font: "Red Hat Mono", monospace;
+    --nav-font: "Red Hat Mono", monospace;
+    
+    /* Font weights */
+    --main-weight: 300;
+    --heading-weight: 400;
+    --nav-weight: 300;
 }
 
+/* Base styles */
 body { 
     background: var(--primary-bg) !important;
     color: var(--primary-text) !important;
     min-height: 100vh;
+    font-family: var(--main-font) !important;
+    font-weight: var(--main-weight) !important;
 }
 
+/* Typography */
+p, div, li, td, th, span, a {
+    font-family: var(--main-font) !important;
+    color: var(--primary-text) !important;
+    font-weight: var(--main-weight) !important;
+}
+
+h1, h2, h3, h4, h5, h6, .introText {
+    font-family: var(--heading-font) !important;
+    color: var(--primary-text) !important;
+    font-weight: var(--heading-weight) !important;
+}
+
+/* Navigation */
+.navbar-nav, .nav-link, .navText, .navbar-brand {
+    font-family: var(--nav-font) !important;
+    font-weight: var(--nav-weight) !important;
+}
+
+/* Layout */
+.content-section {
+    padding-top: 80px;
+    margin-top: 0;
+    min-height: calc(100vh - 80px);
+}
 
 /* Then use it in your CSS */
 .text, .introText {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--main-font);
     color: var(--primary-text);
-}
-
-/* .text, .introText {
-    font-family: akzidenz grotesk, Verdana, Geneva, Tahoma, sans-serif;
-    color: var(--primary-text);
-} */
-
-.text {
-    font-size: 10pt;
-    font-family: "Proxima Nova", sans-serif;
-    max-width: 800px;  /* Adjust this value to your preference */
-    margin: 0 auto;    /* Centers the text if narrower than parent */
-}
-
-.introText {
-    font-size: 20pt;
-    font-family: "Proxima Nova", sans-serif;  /* Changed from Merriweather */
 }
 
 .navbar-nav {
-    font-family: "DM Mono", monospace;
+    font-family: var(--nav-font);
 }
 
 .navBack {
@@ -76,22 +97,10 @@ body {
     padding-bottom: 1rem;
 }
 
-#footer {
-    background-color: #fce5cce7;
-    text-align: center;
-}
-
-.imageAboutPage,
-.imageIntroPage {
-    width: 100%;
-}
-
 table {
-    font-family: "DM Mono", monospace;
     border-collapse: collapse;
     width: 100%;
-    color: var(--primary-text) !important;  /* Added this */
-
+    color: var(--primary-text) !important;
 }
   
 td, th {
@@ -101,24 +110,12 @@ td, th {
 }
 
 td:first-child, th:first-child {
-    width: 100px;  /* Adjust this value to your preference */
+    width: 100px;
     padding: 10px 5px;
 }
 
 td:last-child, th:last-child {
     padding: 10px 5px;
-}
-
-  
-/* tr:nth-child(even) {
-    background-color: rgba(255, 255, 255, 0.1);   Changed from #dddddd to semi-transparent white 
-} 
-*/
-
-/* All text elements should have consistent size */
-.text, .introText, p, h1, h2, h3, h4, h5, h6 {
-    font-family: "DM Mono", monospace;
-    color: var(--primary-text) !important;
 }
 
 /* Keep headings larger */
@@ -128,9 +125,32 @@ h3 { font-size: 16pt !important; }
 
 /* Add this to control maximum content width */
 .container {
-    max-width: 800px !important;  /* You can adjust this value */
-    margin: 0 auto;  /* Centers the container */
+    max-width: 800px !important;
+    margin: 0 auto;
 }
+
+/* Image styling */
+.imageAboutPage,
+.imageIntroPage {
+    width: 100%;
+}
+
+.text {
+    font-size: 10pt;
+    font-family: var(--main-font);
+    max-width: 800px;  /* Adjust this value to your preference */
+    margin: 0 auto;    /* Centers the text if narrower than parent */
+}
+
+.introText {
+    font-size: 20pt;
+    font-family: var(--main-font);
+}
+
+/* .text, .introText {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-text);
+} */
 
 /* Make sure these classes are present and used in both pages */
 .intro-section, .about-section {
@@ -138,12 +158,6 @@ h3 { font-size: 16pt !important; }
     padding-top: 1rem;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
-}
-
-.content-section {
-    padding-top: 80px;  /* Increase padding to ensure content is visible */
-    margin-top: 0;
-    min-height: calc(100vh - 80px);
 }
 
 /* Target only paragraphs in the intro section */
@@ -220,11 +234,11 @@ h3 { font-size: 16pt !important; }
 
 /* Also update these specific elements */
 .navbar-nav {
-    font-family: "DM Mono", monospace;
+    font-family: var(--nav-font);
 }
 
 table {
-    font-family: "DM Mono", monospace;
+    font-family: var(--main-font);
 }
 
 /* Import the font directly in CSS as well */
@@ -232,11 +246,218 @@ table {
 
 /* Apply to all text elements with !important */
 body, p, h1, h2, h3, h4, h5, h6, span, div, li, a, td, th, .text, .introText, .navbar-nav, .nav-link, .navText {
-    font-family: "DM Mono", monospace !important;
+    font-family: var(--main-font) !important;
 }
 
 /* Specifically target any elements that might be using a different font */
 .navbar-brand, .navbar-nav .nav-link, .navbar-toggler {
-    font-family: "DM Mono", monospace !important;
+    font-family: var(--nav-font) !important;
+}
+
+/* Book card styling */
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--primary-text);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title, .card-text {
+    color: var(--primary-text) !important;
+}
+
+.card-footer {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-top: 1px solid var(--primary-text);
+}
+
+.btn-outline-secondary {
+    color: var(--primary-text) !important;
+    border-color: var(--primary-text) !important;
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--accent-hover) !important;
+    color: var(--primary-bg) !important;
+}
+
+.fa-star, .fa-star-half-alt {
+    color: var(--primary-text);
+}
+
+/* Make sure book covers display nicely */
+.card-img-top {
+    max-height: 200px;
+    width: auto;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+/* Ensure text in cards is readable */
+.text-muted {
+    color: var(--primary-text) !important;
+    opacity: 0.8;
+}
+
+/* Add some spacing between book cards */
+#books-container .col-md-4 {
+    margin-bottom: 20px;
+}
+
+/* Style the last updated text */
+#last-updated {
+    font-style: italic;
+    margin-bottom: 30px;
+    font-size: 0.9em;
+}
+
+/* Book cover styling */
+.book-cover-container {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    height: 300px;
+}
+
+.book-cover-container:hover {
+    transform: translateY(-5px);
+}
+
+.book-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.book-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: var(--primary-text);
+    padding: 10px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.book-cover-container:hover .book-info {
+    transform: translateY(0);
+}
+
+.book-title {
+    font-weight: var(--heading-weight);
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.book-author, .book-date {
+    margin: 5px 0 0;
+    font-size: 0.8rem;
+    opacity: 0.9;
+}
+
+/* Form control styling */
+.form-select {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--primary-text);
+    color: var(--primary-text);
+}
+
+.form-select:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: var(--primary-text);
+    color: var(--primary-text);
+    box-shadow: 0 0 0 0.25rem rgba(254, 215, 102, 0.25);
+}
+
+label {
+    color: var(--primary-text);
+    margin-bottom: 5px;
+}
+
+/* Book list view styling - refined with hover date */
+.book-list {
+    margin-top: 20px;
+}
+
+.book-list-item {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(254, 215, 102, 0.2);
+    position: relative;
+}
+
+.book-list-item:last-child {
+    border-bottom: none;
+}
+
+.book-list-link {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    text-decoration: none;
+    color: var(--primary-text);
+    transition: transform 0.2s ease;
+    padding: 5px 0;
+    width: 100%;
+}
+
+.book-list-link:hover {
+    transform: translateX(5px);
+    color: var(--primary-text);
+}
+
+.book-list-title {
+    font-weight: 500;  /* Bolder weight */
+    font-size: 1rem;   /* Slightly smaller */
+    margin-right: 15px;
+}
+
+.book-list-author {
+    font-size: 0.85rem;  /* Smaller */
+    opacity: 0.8;        /* Lighter */
+    font-weight: 300;    /* Lighter weight */
+    text-align: right;
+}
+
+.book-list-date {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: rgba(187, 189, 246, 0.9);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateY(-10px);
+    pointer-events: none;
+    z-index: 10;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.book-list-item:hover .book-list-date {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Responsive adjustments for list view */
+@media (max-width: 768px) {
+    .book-list-link {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .book-list-author {
+        margin-top: 5px;
+        text-align: left;
+    }
 }
 

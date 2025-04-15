@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Elham Islam - Books</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" href="./images/initial_favi.png">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navBack">
+        <div class="container collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto ">
+                <li>    
+                    <a class="navbar-brand navText" href="./index.html">Elham Islam</a>
+                </li>
+            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="navbar-nav ms-auto">
+                <li>
+                    <a class="nav-link" href="https://twitter.com/elhamislam" target="_blank"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a class="nav-link" href="https://www.instagram.com/elhamislam/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a class="nav-link" href="https://www.linkedin.com/in/elhamislam/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a class="nav-link" href="https://github.com/elhamislam" target="_blank"><i class="fab fa-github"></i></a>
+                </li>
+                <li>
+                    <a class="nav-link" href="https://www.goodreads.com/user/show/40486952-elham-islam" target="_blank"><i class="fab fa-goodreads"></i></a>
+                </li>
+            </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link navText" href="./index.html">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navText" href="./about.html">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navText" href="./writing.html">writing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navText" href="./projects.html">projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navText" href="./books.html"><u>books</u></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="books" class="content-section">
+        <div class="container">
+            <h1 class="text-center">Books I've Read</h1>
+            <p class="text-center" id="last-updated"></p>
+            
+            <div class="row mb-4">
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="view-select">View:</label>
+                        <select id="view-select" class="form-select">
+                            <option value="grid" selected>Cover Grid</option>
+                            <option value="list">Title List</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="sort-select">Sort by:</label>
+                        <select id="sort-select" class="form-select">
+                            <option value="date-desc">Date Read (Newest First)</option>
+                            <option value="date-asc">Date Read (Oldest First)</option>
+                            <option value="title">Title (A-Z)</option>
+                            <option value="author">Author (A-Z)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="filter-select">Time Period:</label>
+                        <select id="filter-select" class="form-select">
+                            <option value="all">All Books</option>
+                            <option value="5years" selected>Last 5 Years</option>
+                            <option value="2years">Last 2 Years</option>
+                            <option value="1year">Last Year</option>
+                            <option value="6months">Last 6 Months</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-items-end">
+                    <div class="form-group mt-2">
+                        <span id="book-count" class="book-count"></span>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="books-container">
+                <!-- Books will be loaded here by JavaScript -->
+                <div class="text-center">
+                    <p>Loading books...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Function to load and display books
+        async function loadBooks() {
+            try {
+                const response = await fetch('books.json');
+                const data = await response.json();
+                
+                // Store all books
+                const allBooks = data.books;
+                
+                // Update last updated text
+                document.getElementById('last-updated').textContent = 
+                    `Last updated: ${data.last_updated}`;
+                
+                // Function to display books with current sort and filter
+                function displayBooks() {
+                    // Get current view, sort and filter values
+                    const viewValue = document.getElementById('view-select').value;
+                    const sortValue = document.getElementById('sort-select').value;
+                    const filterValue = document.getElementById('filter-select').value;
+                    
+                    // Filter books by date if needed
+                    let filteredBooks = allBooks;
+                    
+                    if (filterValue !== 'all') {
+                        const now = new Date();
+                        let cutoffDate = new Date();
+                        
+                        if (filterValue === '5years') {
+                            cutoffDate.setFullYear(now.getFullYear() - 5);
+                        } else if (filterValue === '2years') {
+                            cutoffDate.setFullYear(now.getFullYear() - 2);
+                        } else if (filterValue === '1year') {
+                            cutoffDate.setFullYear(now.getFullYear() - 1);
+                        } else if (filterValue === '6months') {
+                            cutoffDate.setMonth(now.getMonth() - 6);
+                        }
+                        
+                        filteredBooks = allBooks.filter(book => {
+                            if (!book.date_read) return false;
+                            const bookDate = new Date(book.date_read);
+                            return bookDate >= cutoffDate;
+                        });
+                    }
+                    
+                    // Sort books
+                    filteredBooks.sort((a, b) => {
+                        switch (sortValue) {
+                            case 'date-desc':
+                                return new Date(b.date_read || '1900-01-01') - new Date(a.date_read || '1900-01-01');
+                            case 'date-asc':
+                                return new Date(a.date_read || '1900-01-01') - new Date(b.date_read || '1900-01-01');
+                            case 'title':
+                                return a.title.localeCompare(b.title);
+                            case 'author':
+                                return a.author.localeCompare(b.author);
+                            default:
+                                return 0;
+                        }
+                    });
+                    
+                    // Clear container
+                    const container = document.getElementById('books-container');
+                    container.innerHTML = '';
+                    
+                    // Update book count
+                    document.getElementById('book-count').textContent = 
+                        `${filteredBooks.length} book${filteredBooks.length !== 1 ? 's' : ''} found`;
+                    
+                    // Display message if no books match filter
+                    if (filteredBooks.length === 0) {
+                        container.innerHTML = `
+                            <div class="text-center">
+                                <p>No books found for the selected time period.</p>
+                            </div>
+                        `;
+                        return;
+                    }
+                    
+                    // Display books based on view type
+                    if (viewValue === 'grid') {
+                        // Create row for grid
+                        const row = document.createElement('div');
+                        row.className = 'row';
+                        container.appendChild(row);
+                        
+                        // Display books in grid view
+                        filteredBooks.forEach(book => {
+                            const bookElement = document.createElement('div');
+                            bookElement.className = 'col-md-3 col-sm-4 col-6 mb-4';
+                            
+                            bookElement.innerHTML = `
+                                <div class="book-cover-container">
+                                    <a href="${book.goodreads_url}" target="_blank">
+                                        <img src="${book.cover_url}" class="book-cover" alt="${book.title}" title="${book.title} by ${book.author}">
+                                        <div class="book-info">
+                                            <p class="book-title">${book.title}</p>
+                                            <p class="book-author">by ${book.author}</p>
+                                            <p class="book-date">Read: ${book.date_read}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            `;
+                            
+                            row.appendChild(bookElement);
+                        });
+                    } else {
+                        // Display books in list view
+                        const list = document.createElement('div');
+                        list.className = 'book-list';
+                        container.appendChild(list);
+                        
+                        filteredBooks.forEach(book => {
+                            const listItem = document.createElement('div');
+                            listItem.className = 'book-list-item';
+                            
+                            listItem.innerHTML = `
+                                <a href="${book.goodreads_url}" target="_blank" class="book-list-link">
+                                    <span class="book-list-title">${book.title}</span>
+                                    <span class="book-list-author">${book.author}</span>
+                                    <span class="book-list-date">Read: ${book.date_read}</span>
+                                </a>
+                            `;
+                            
+                            list.appendChild(listItem);
+                        });
+                    }
+                }
+                
+                // Add event listeners to view, sort and filter selectors
+                document.getElementById('view-select').addEventListener('change', displayBooks);
+                document.getElementById('sort-select').addEventListener('change', displayBooks);
+                document.getElementById('filter-select').addEventListener('change', displayBooks);
+                
+                // Initial display
+                displayBooks();
+                
+            } catch (error) {
+                console.error('Error loading books:', error);
+                document.getElementById('books-container').innerHTML = `
+                    <div class="text-center">
+                        <p>Error loading books. Please try again later.</p>
+                    </div>
+                `;
+            }
+        }
+        
+        // Load books when the page is ready
+        document.addEventListener('DOMContentLoaded', loadBooks);
+    </script>
+</body>
+</html>
