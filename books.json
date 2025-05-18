@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-04-15 16:32:07",
+  "last_updated": "2025-04-15 20:41:10",
   "books": [
     {
       "title": "Days at the Morisaki Bookshop\n        (Days at the Morisaki Bookshop, #1)",
@@ -24,7 +24,7 @@
     {
       "title": "\"What Do You Care What Other People Think?\": Further Adventures of a Curious Character",
       "author": "Feynman, Richard",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516068365l/35167718._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/1468422-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516068365l/35167718._SY75_.jpg",
       "rating": "avg rating    4.19",
       "date_read": "not set",
@@ -124,7 +124,7 @@
     {
       "title": "Uglies\n        (Uglies, #1)",
       "author": "Westerfeld, Scott",
-      "cover_url": "https://covers.openlibrary.org/b/id/761008-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/438244-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1654202671l/24770._SX50_.jpg",
       "rating": "avg rating    3.85",
       "date_read": "not set",
@@ -164,7 +164,7 @@
     {
       "title": "Deep Work: Rules for Focused Success in a Distracted World",
       "author": "Newport, Cal",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447957962l/25744928._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/7988607-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447957962l/25744928._SY75_.jpg",
       "rating": "was",
       "date_read": "not set",
@@ -174,7 +174,7 @@
     {
       "title": "The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change",
       "author": "Covey, Stephen R.",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421842784l/36072._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/10079937-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421842784l/36072._SY75_.jpg",
       "rating": "it",
       "date_read": "not set",
@@ -184,7 +184,7 @@
     {
       "title": "The Diary of a Young Girl",
       "author": "Frank, Anne",
-      "cover_url": "https://covers.openlibrary.org/b/id/13526331-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/8584021-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560816565l/48855._SY75_.jpg",
       "rating": "avg rating    4.20",
       "date_read": "not set",
@@ -194,7 +194,7 @@
     {
       "title": "The Odyssey",
       "author": "Homer",
-      "cover_url": "https://covers.openlibrary.org/b/id/12474938-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/6089166-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1711957706l/1381._SY75_.jpg",
       "rating": "avg rating    3.82",
       "date_read": "not set",
@@ -214,7 +214,7 @@
     {
       "title": "New Moon\n        (The Twilight Saga, #2)",
       "author": "Meyer, Stephenie",
-      "cover_url": "https://covers.openlibrary.org/b/id/12643406-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/14638065-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630592760l/49041._SX50_.jpg",
       "rating": "avg rating    3.61",
       "date_read": "not set",
@@ -234,7 +234,7 @@
     {
       "title": "Mindset: The New Psychology of Success",
       "author": "Dweck, Carol S.",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1436227012l/40745._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/1185470-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1436227012l/40745._SY75_.jpg",
       "rating": "it",
       "date_read": "not set",
@@ -254,7 +254,7 @@
     {
       "title": "The 5th Wave\n        (The 5th Wave, #1)",
       "author": "Yancey, Rick",
-      "cover_url": "https://covers.openlibrary.org/b/id/8568842-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/7393264-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1359853842l/16101128._SX50_.jpg",
       "rating": "it",
       "date_read": "not set",
@@ -334,7 +334,7 @@
     {
       "title": "The Dead",
       "author": "Joyce, James",
-      "cover_url": "https://covers.openlibrary.org/b/id/9214126-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/8216412-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1702545862l/23289._SX50_.jpg",
       "rating": "avg rating    3.98",
       "date_read": "not set",
@@ -344,7 +344,7 @@
     {
       "title": "Absolutely on Music: Conversations with Seiji Ozawa",
       "author": "Murakami, Haruki",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1482476628l/28092838._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/14613331-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1482476628l/28092838._SY75_.jpg",
       "rating": "it",
       "date_read": "not set",
@@ -364,7 +364,7 @@
     {
       "title": "The Boy in the Striped Pajamas",
       "author": "Boyne, John",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366228171l/39999._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/12720687-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366228171l/39999._SY75_.jpg",
       "rating": "was",
       "date_read": "not set",
@@ -374,7 +374,7 @@
     {
       "title": "The Nightingale",
       "author": "Hannah, Kristin",
-      "cover_url": "https://covers.openlibrary.org/b/id/8314147-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/320591-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681839850l/21853621._SY75_.jpg",
       "rating": "liked",
       "date_read": "not set",
@@ -424,7 +424,7 @@
     {
       "title": "Richard III",
       "author": "Shakespeare, William",
-      "cover_url": "https://covers.openlibrary.org/b/id/9020720-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/8281954-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328043960l/42058._SY75_.jpg",
       "rating": "it",
       "date_read": "not set",
@@ -444,7 +444,7 @@
     {
       "title": "The Inconvenient Indian: A Curious Account of Native People in North America",
       "author": "King, Thomas",
-      "cover_url": "https://covers.openlibrary.org/b/id/7856929-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/9053265-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1357136064l/15797509._SY75_.jpg",
       "rating": "liked",
       "date_read": "not set",
@@ -454,7 +454,7 @@
     {
       "title": "Holes\n        (Holes, #1)",
       "author": "Sachar, Louis",
-      "cover_url": "https://covers.openlibrary.org/b/id/19797-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/10432365-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618269830l/38709._SX50_.jpg",
       "rating": "avg rating    4.01",
       "date_read": "not set",
@@ -474,7 +474,7 @@
     {
       "title": "Animal Farm / 1984",
       "author": "Orwell, George",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327959366l/5472._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/10524365-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327959366l/5472._SY75_.jpg",
       "rating": "liked",
       "date_read": "not set",
@@ -484,7 +484,7 @@
     {
       "title": "The Chronicles of Narnia\n        (The Chronicles of Narnia, #1-7)",
       "author": "Lewis, C.S.",
-      "cover_url": "https://covers.openlibrary.org/b/id/9321656-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/6950992-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1661032875l/11127._SY75_.jpg",
       "rating": "avg rating    4.28",
       "date_read": "not set",
@@ -504,7 +504,7 @@
     {
       "title": "The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing",
       "author": "Kondo, Marie",
-      "cover_url": "https://covers.openlibrary.org/b/id/11096637-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/7367218-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1418767178l/22318578._SX50_.jpg",
       "rating": "it",
       "date_read": "not set",
@@ -514,7 +514,7 @@
     {
       "title": "Freakonomics: A Rogue Economist Explores the Hidden Side of Everything",
       "author": "Levitt, Steven D.",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550917827l/1202._SX50_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/11172914-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550917827l/1202._SX50_.jpg",
       "rating": "it",
       "date_read": "not set",
@@ -524,7 +524,7 @@
     {
       "title": "Sapiens: A Brief History of Humankind",
       "author": "Harari, Yuval Noah",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1703329310l/23692271._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/8634250-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1703329310l/23692271._SY75_.jpg",
       "rating": "was",
       "date_read": "not set",
@@ -544,7 +544,7 @@
     {
       "title": "The Little Prince",
       "author": "Saint-Exupéry, Antoine de",
-      "cover_url": "https://covers.openlibrary.org/b/id/10746692-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/10708272-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1367545443l/157993._SY75_.jpg",
       "rating": "was",
       "date_read": "not set",
@@ -564,7 +564,7 @@
     {
       "title": "The Invention of Wings",
       "author": "Kidd, Sue Monk",
-      "cover_url": "https://covers.openlibrary.org/b/id/10218691-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/11516969-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386699861l/18079776._SY75_.jpg",
       "rating": "was",
       "date_read": "not set",
@@ -574,7 +574,7 @@
     {
       "title": "Unbroken: A World War II Story of Survival, Resilience and Redemption",
       "author": "Hillenbrand, Laura",
-      "cover_url": "https://covers.openlibrary.org/b/id/8314195-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/6677276-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327861115l/8664353._SY75_.jpg",
       "rating": "it",
       "date_read": "not set",
@@ -584,7 +584,7 @@
     {
       "title": "The Martian",
       "author": "Weir, Andy",
-      "cover_url": "https://covers.openlibrary.org/b/id/11447888-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/9346537-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413706054l/18007564._SY75_.jpg",
       "rating": "it",
       "date_read": "not set",
@@ -644,7 +644,7 @@
     {
       "title": "The Slippery Slope\n        (A Series of Unfortunate Events, #10)",
       "author": "Snicket, Lemony",
-      "cover_url": "https://covers.openlibrary.org/b/id/13574710-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/8266470-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1518835363l/297792._SX50_.jpg",
       "rating": "avg rating    4.05",
       "date_read": "not set",
@@ -724,7 +724,7 @@
     {
       "title": "The Reptile Room\n        (A Series of Unfortunate Events, #2)",
       "author": "Snicket, Lemony",
-      "cover_url": "https://covers.openlibrary.org/b/id/13574710-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/10117325-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1352146294l/78418._SX50_.jpg",
       "rating": "was",
       "date_read": "not set",
@@ -764,7 +764,7 @@
     {
       "title": "Wonder\n        (Wonder, #1)",
       "author": "Palacio, R.J.",
-      "cover_url": "https://covers.openlibrary.org/b/id/8223160-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/552443-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545695751l/11387515._SY75_.jpg",
       "rating": "liked",
       "date_read": "not set",
@@ -774,7 +774,7 @@
     {
       "title": "World War Z: An Oral History of the Zombie War",
       "author": "Brooks, Max",
-      "cover_url": "https://covers.openlibrary.org/b/id/12548791-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/168106-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1528312647l/8908._SX50_.jpg",
       "rating": "liked",
       "date_read": "not set",
@@ -864,7 +864,7 @@
     {
       "title": "Harry Potter and the Cursed Child: Parts One and Two\n        (Harry Potter, #8)",
       "author": "Rowling, J.K.",
-      "cover_url": "https://covers.openlibrary.org/b/id/13192207-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/8763851-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470082995l/29056083._SY75_.jpg",
       "rating": "avg rating    3.48",
       "date_read": "not set",
@@ -884,7 +884,7 @@
     {
       "title": "Tuesdays with Morrie: An Old Man, a Young Man, and Life's Greatest Lesson",
       "author": "Albom, Mitch",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1423763749l/6900._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/12560417-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1423763749l/6900._SY75_.jpg",
       "rating": "liked",
       "date_read": "not set",
@@ -914,7 +914,7 @@
     {
       "title": "The Communist Manifesto",
       "author": "Marx, Karl",
-      "cover_url": "https://covers.openlibrary.org/b/id/11600600-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/11048623-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1740105815l/30474._SY75_.jpg",
       "rating": "it",
       "date_read": "not set",
@@ -944,7 +944,7 @@
     {
       "title": "Go Set a Watchman",
       "author": "Lee, Harper",
-      "cover_url": "https://covers.openlibrary.org/b/id/7383195-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/12366237-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1451442088l/24817626._SY75_.jpg",
       "rating": "it",
       "date_read": "not set",
@@ -964,7 +964,7 @@
     {
       "title": "The Plague",
       "author": "Camus, Albert",
-      "cover_url": "https://covers.openlibrary.org/b/id/745331-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/13151272-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1503362434l/11989._SY75_.jpg",
       "rating": "liked",
       "date_read": "not set",
@@ -974,7 +974,7 @@
     {
       "title": "Perfume: The Story of a Murderer",
       "author": "Süskind, Patrick",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1409112276l/343._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/10910286-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1409112276l/343._SY75_.jpg",
       "rating": "liked",
       "date_read": "not set",
@@ -984,7 +984,7 @@
     {
       "title": "The Yellow Wall-Paper",
       "author": "Gilman, Charlotte Perkins",
-      "cover_url": "https://covers.openlibrary.org/b/id/119237-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/652029-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351778524l/286957._SX50_.jpg",
       "rating": "was",
       "date_read": "not set",
@@ -994,7 +994,7 @@
     {
       "title": "1984",
       "author": "Orwell, George",
-      "cover_url": "https://covers.openlibrary.org/b/id/8745958-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/9267242-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532714506l/40961427._SX50_.jpg",
       "rating": "liked",
       "date_read": "not set",
@@ -1004,7 +1004,7 @@
     {
       "title": "The Hobbit, or There and Back Again",
       "author": "Tolkien, J.R.R.",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546071216l/5907._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/14627509-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546071216l/5907._SY75_.jpg",
       "rating": "it",
       "date_read": "not set",
@@ -1014,7 +1014,7 @@
     {
       "title": "Benjamin Franklin: An American Life",
       "author": "Isaacson, Walter",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630510455l/10883._SX50_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/541092-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630510455l/10883._SX50_.jpg",
       "rating": "avg rating    4.05",
       "date_read": "not set",
@@ -1024,7 +1024,7 @@
     {
       "title": "\"Surely You're Joking, Mr. Feynman!\": Adventures of a Curious Character",
       "author": "Feynman, Richard",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1504936953l/35167685._SX50_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/9274698-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1504936953l/35167685._SX50_.jpg",
       "rating": "was",
       "date_read": "not set",
@@ -1114,7 +1114,7 @@
     {
       "title": "Champion\n        (Legend, #3)",
       "author": "Lu, Marie",
-      "cover_url": "https://covers.openlibrary.org/b/id/8371540-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/6794243-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1382652310l/14290364._SY75_.jpg",
       "rating": "liked",
       "date_read": "not set",
@@ -1124,7 +1124,7 @@
     {
       "title": "Legend\n        (Legend, #1)",
       "author": "Lu, Marie",
-      "cover_url": "https://covers.openlibrary.org/b/id/7268930-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/8243083-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1501368160l/9275658._SY75_.jpg",
       "rating": "liked",
       "date_read": "not set",
@@ -1134,7 +1134,7 @@
     {
       "title": "Looking for Alaska",
       "author": "Green, John",
-      "cover_url": "https://covers.openlibrary.org/b/id/12614602-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/12366237-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1652042180l/99561._SY75_.jpg",
       "rating": "it",
       "date_read": "not set",
@@ -1154,7 +1154,7 @@
     {
       "title": "Kafka on the Shore",
       "author": "Murakami, Haruki",
-      "cover_url": "https://covers.openlibrary.org/b/id/12657305-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/4982600-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1429638085l/4929._SY75_.jpg",
       "rating": "liked",
       "date_read": "not set",
@@ -1164,7 +1164,7 @@
     {
       "title": "The Wind-Up Bird Chronicle",
       "author": "Murakami, Haruki",
-      "cover_url": "https://covers.openlibrary.org/b/id/12976127-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/12627437-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327872639l/11275._SY75_.jpg",
       "rating": "was",
       "date_read": "not set",
@@ -1234,7 +1234,7 @@
     {
       "title": "Harry Potter and the Sorcerer's Stone\n        (Harry Potter, #1)",
       "author": "Rowling, J.K.",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474154022l/3._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/10521270-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474154022l/3._SY75_.jpg",
       "rating": "liked",
       "date_read": "not set",
@@ -1284,7 +1284,7 @@
     {
       "title": "The Cherry Orchard",
       "author": "Chekhov, Anton",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546625162l/87346._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/13420205-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546625162l/87346._SY75_.jpg",
       "rating": "liked",
       "date_read": "not set",
@@ -1334,7 +1334,7 @@
     {
       "title": "Freakonomics",
       "author": "Freakonomics",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1609132888l/56442639._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/11172914-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1609132888l/56442639._SY75_.jpg",
       "rating": "it",
       "date_read": "not set",
@@ -1344,7 +1344,7 @@
     {
       "title": "David and Goliath: Underdogs, Misfits, and the Art of Battling Giants",
       "author": "Gladwell, Malcolm",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391813567l/15751404._SX50_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/7276285-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391813567l/15751404._SX50_.jpg",
       "rating": "it",
       "date_read": "not set",
@@ -1354,7 +1354,7 @@
     {
       "title": "Blink: The Power of Thinking Without Thinking",
       "author": "Gladwell, Malcolm",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440763417l/40102._SX50_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/14421850-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440763417l/40102._SX50_.jpg",
       "rating": "it",
       "date_read": "not set",
@@ -1364,7 +1364,7 @@
     {
       "title": "Outliers: The Story of Success",
       "author": "Gladwell, Malcolm",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344266315l/3228917._SX50_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/10021591-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344266315l/3228917._SX50_.jpg",
       "rating": "liked",
       "date_read": "not set",
@@ -1374,7 +1374,7 @@
     {
       "title": "The Tipping Point: How Little Things Can Make a Big Difference",
       "author": "Gladwell, Malcolm",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473396980l/2612._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/10873292-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473396980l/2612._SY75_.jpg",
       "rating": "it",
       "date_read": "not set",
@@ -1394,7 +1394,7 @@
     {
       "title": "Frankenstein: The 1818 Text",
       "author": "Shelley, Mary",
-      "cover_url": "https://covers.openlibrary.org/b/id/7267770-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/12356249-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631088473l/35031085._SY75_.jpg",
       "rating": "liked",
       "date_read": "not set",
@@ -1404,7 +1404,7 @@
     {
       "title": "The Chrysalids",
       "author": "Wyndham, John",
-      "cover_url": "https://covers.openlibrary.org/b/id/6669244-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/535027-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1271095852l/826845._SY75_.jpg",
       "rating": "it",
       "date_read": "not set",
@@ -1414,7 +1414,7 @@
     {
       "title": "All the Light We Cannot See",
       "author": "Doerr, Anthony",
-      "cover_url": "https://covers.openlibrary.org/b/id/14559680-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/12366237-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1451445646l/18143977._SY75_.jpg",
       "rating": "liked",
       "date_read": "not set",
@@ -1424,7 +1424,7 @@
     {
       "title": "The Glass Castle",
       "author": "Walls, Jeannette",
-      "cover_url": "https://covers.openlibrary.org/b/id/11517692-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/12366237-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523542886l/7445._SY75_.jpg",
       "rating": "was",
       "date_read": "not set",
@@ -1444,7 +1444,7 @@
     {
       "title": "City of Glass\n        (The Mortal Instruments, #3)",
       "author": "Clare, Cassandra",
-      "cover_url": "https://covers.openlibrary.org/b/id/10397651-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/95139-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1369452339l/3777732._SY75_.jpg",
       "rating": "it",
       "date_read": "not set",
@@ -1464,7 +1464,7 @@
     {
       "title": "City of Ashes\n        (The Mortal Instruments, #2)",
       "author": "Clare, Cassandra",
-      "cover_url": "https://covers.openlibrary.org/b/id/8783750-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/1787130-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432730356l/1582996._SY75_.jpg",
       "rating": "was",
       "date_read": "not set",
@@ -1474,7 +1474,7 @@
     {
       "title": "Ru",
       "author": "Thúy, Kim",
-      "cover_url": "https://covers.openlibrary.org/b/id/10803130-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/36314-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328008172l/7574245._SY75_.jpg",
       "rating": "was",
       "date_read": "not set",
@@ -1484,7 +1484,7 @@
     {
       "title": "Farenheit 451",
       "author": "Bradbury, Ray",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1608059811l/56302573._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/12993656-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1608059811l/56302573._SY75_.jpg",
       "rating": "liked",
       "date_read": "not set",
@@ -1494,7 +1494,7 @@
     {
       "title": "The Perks of Being a Wallflower",
       "author": "Chbosky, Stephen",
-      "cover_url": "https://covers.openlibrary.org/b/id/14315052-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/12366237-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1650033115l/22628._SX50_.jpg",
       "rating": "liked",
       "date_read": "not set",
@@ -1574,7 +1574,7 @@
     {
       "title": "The Inner Game of Tennis: The Classic Guide to the Mental Side of Peak Performance",
       "author": "Gallwey, W. Timothy",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427665815l/905._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/5413630-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427665815l/905._SY75_.jpg",
       "rating": "was",
       "date_read": "Sep 19, 2022",
@@ -1594,7 +1594,7 @@
     {
       "title": "So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love",
       "author": "Newport, Cal",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360564614l/13525945._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/9215292-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360564614l/13525945._SY75_.jpg",
       "rating": "liked",
       "date_read": "Sep 19, 2022",
@@ -1604,7 +1604,7 @@
     {
       "title": "Flow: The Psychology of Optimal Experience",
       "author": "Csíkszentmihályi, Mihály",
-      "cover_url": "https://covers.openlibrary.org/b/id/767930-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/11041932-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474776448l/117101._SY75_.jpg",
       "rating": "was",
       "date_read": "Sep 18, 2022",
@@ -1614,7 +1614,7 @@
     {
       "title": "The Last Lecture",
       "author": "Pausch, Randy",
-      "cover_url": "https://covers.openlibrary.org/b/id/8061766-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/10858232-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529682044l/40611510._SX50_.jpg",
       "rating": "was",
       "date_read": "Sep 15, 2024",
@@ -1634,7 +1634,7 @@
     {
       "title": "Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture",
       "author": "Kushner, David",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1557932856l/222146._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/606299-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1557932856l/222146._SY75_.jpg",
       "rating": "liked",
       "date_read": "Sep 12, 2024",
@@ -1644,7 +1644,7 @@
     {
       "title": "The Talent Code: Unlocking the Secret of Skill in Sports, Art, Music, Math, and Just About Everything Else",
       "author": "Coyle, Daniel",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1404579448l/5771014._SX50_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/11948223-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1404579448l/5771014._SX50_.jpg",
       "rating": "it",
       "date_read": "Sep 06, 2024",
@@ -1654,7 +1654,7 @@
     {
       "title": "Shop Class as Soulcraft: An Inquiry Into the Value of Work",
       "author": "Crawford, Matthew B.",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442839731l/6261332._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/6275823-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442839731l/6261332._SY75_.jpg",
       "rating": "liked",
       "date_read": "Sep 06, 2024",
@@ -1664,7 +1664,7 @@
     {
       "title": "The Checklist Manifesto: How to Get Things Right",
       "author": "Gawande, Atul",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1647403235l/6667514._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/8231866-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1647403235l/6667514._SY75_.jpg",
       "rating": "liked",
       "date_read": "Sep 06, 2024",
@@ -1684,7 +1684,7 @@
     {
       "title": "On Writing: A Memoir of the Craft",
       "author": "King, Stephen",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1436735207l/10569._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/9255939-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1436735207l/10569._SY75_.jpg",
       "rating": "avg rating    4.34",
       "date_read": "Oct 30, 2022",
@@ -1694,7 +1694,7 @@
     {
       "title": "The Nobel Lecture In Literature, 1993",
       "author": "Morrison, Toni",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403175530l/11353._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/9318423-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403175530l/11353._SY75_.jpg",
       "rating": "avg rating    4.52",
       "date_read": "Oct 27, 2021",
@@ -1704,7 +1704,7 @@
     {
       "title": "My Twentieth Century Evening and Other Small Breakthroughs: The Nobel Lecture",
       "author": "Ishiguro, Kazuo",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1512819752l/36655283._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/12359613-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1512819752l/36655283._SY75_.jpg",
       "rating": "it",
       "date_read": "Oct 27, 2021",
@@ -1714,7 +1714,7 @@
     {
       "title": "A Personal Matter",
       "author": "Ōe, Kenzaburō",
-      "cover_url": "https://covers.openlibrary.org/b/id/10795597-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/569567-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328822587l/25191._SY75_.jpg",
       "rating": "liked",
       "date_read": "Oct 2024",
@@ -1724,7 +1724,7 @@
     {
       "title": "Never Split the Difference: Negotiating As If Your Life Depended On It",
       "author": "Voss, Chris",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1460910517l/26156469._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/8365942-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1460910517l/26156469._SY75_.jpg",
       "rating": "avg rating    4.36",
       "date_read": "Oct 2024",
@@ -1734,7 +1734,7 @@
     {
       "title": "The Science of Rapid Skill Acquisition: Advanced Methods to Learn, Remember, and Master New Skills, Information, and Abilities",
       "author": "Hollins, Peter",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523691253l/39846642._SX50_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/12060171-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523691253l/39846642._SX50_.jpg",
       "rating": "was",
       "date_read": "Nov 30, 2024",
@@ -1744,7 +1744,7 @@
     {
       "title": "A Mind for Numbers: How to Excel at Math and Science",
       "author": "Oakley, Barbara",
-      "cover_url": "https://covers.openlibrary.org/b/id/12121201-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/8352403-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575009552l/18693655._SY75_.jpg",
       "rating": "it",
       "date_read": "Nov 30, 2022",
@@ -1754,7 +1754,7 @@
     {
       "title": "American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer",
       "author": "Bird, Kai",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1686079247l/80571._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/6460516-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1686079247l/80571._SY75_.jpg",
       "rating": "liked",
       "date_read": "Nov 27, 2024",
@@ -1774,7 +1774,7 @@
     {
       "title": "The Courage to Be Disliked: How to Free Yourself, Change your Life and Achieve Real Happiness",
       "author": "Kishimi, Ichiro",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545421684l/43306206._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/10873626-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545421684l/43306206._SY75_.jpg",
       "rating": "liked",
       "date_read": "Nov 27, 2024",
@@ -1794,7 +1794,7 @@
     {
       "title": "What I Talk About When I Talk About Running",
       "author": "Murakami, Haruki",
-      "cover_url": "https://covers.openlibrary.org/b/id/13185830-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/7167416-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473397159l/2195464._SY75_.jpg",
       "rating": "liked",
       "date_read": "Nov 21, 2021",
@@ -1804,7 +1804,7 @@
     {
       "title": "Essays on the Self",
       "author": "Woolf, Virginia",
-      "cover_url": "https://covers.openlibrary.org/b/id/14345948-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/5647986-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1456106693l/29240623._SY75_.jpg",
       "rating": "avg rating    4.26",
       "date_read": "Nov 06, 2021",
@@ -1824,7 +1824,7 @@
     {
       "title": "After the Quake",
       "author": "Murakami, Haruki",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388271916l/11299._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/979001-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388271916l/11299._SY75_.jpg",
       "rating": "liked",
       "date_read": "May 31, 2022",
@@ -1834,7 +1834,7 @@
     {
       "title": "Sputnik Sweetheart",
       "author": "Murakami, Haruki",
-      "cover_url": "https://covers.openlibrary.org/b/id/14766574-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/984341-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1508082438l/9557._SY75_.jpg",
       "rating": "it",
       "date_read": "May 31, 2022",
@@ -1844,7 +1844,7 @@
     {
       "title": "1Q84 Book 1\n        (1Q84, #1)",
       "author": "Murakami, Haruki",
-      "cover_url": "https://covers.openlibrary.org/b/id/12513186-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/11153243-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329955413l/6443834._SX50_.jpg",
       "rating": "it",
       "date_read": "May 29, 2023",
@@ -1854,7 +1854,7 @@
     {
       "title": "Sleep",
       "author": "Murakami, Haruki",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1641121913l/6501635._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/7268475-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1641121913l/6501635._SY75_.jpg",
       "rating": "avg rating    3.55",
       "date_read": "May 27, 2023",
@@ -1864,7 +1864,7 @@
     {
       "title": "A Wild Sheep Chase\n        (The Rat, #3)",
       "author": "Murakami, Haruki",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630485146l/11298._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/9079128-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630485146l/11298._SY75_.jpg",
       "rating": "liked",
       "date_read": "May 13, 2022",
@@ -1874,7 +1874,7 @@
     {
       "title": "Waiting for Godot",
       "author": "Beckett, Samuel",
-      "cover_url": "https://covers.openlibrary.org/b/id/12424201-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/13175019-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327910301l/17716._SY75_.jpg",
       "rating": "was",
       "date_read": "Mar 03, 2023",
@@ -1894,7 +1894,7 @@
     {
       "title": "The Hitchhiker’s Guide to the Galaxy\n        (The Hitchhiker's Guide to the Galaxy, #1)",
       "author": "Adams, Douglas",
-      "cover_url": "https://covers.openlibrary.org/b/id/11972784-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/12986869-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559986152l/386162._SX50_SY75_.jpg",
       "rating": "avg rating    4.23",
       "date_read": "Mar 02, 2023",
@@ -1904,7 +1904,7 @@
     {
       "title": "Mastery",
       "author": "Greene, Robert",
-      "cover_url": "https://covers.openlibrary.org/b/id/7561012-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/854989-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348274726l/13589182._SX50_.jpg",
       "rating": "avg rating    4.26",
       "date_read": "Jun 30, 2023",
@@ -1914,7 +1914,7 @@
     {
       "title": "Letters to a Young Poet",
       "author": "Rilke, Rainer Maria",
-      "cover_url": "https://covers.openlibrary.org/b/id/6971820-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/6874224-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1321994947l/46199._SY75_.jpg",
       "rating": "avg rating    4.29",
       "date_read": "Jun 30, 2022",
@@ -1924,7 +1924,7 @@
     {
       "title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
       "author": "Manson, Mark",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465761302l/28257707._SX50_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/8231990-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465761302l/28257707._SX50_.jpg",
       "rating": "it",
       "date_read": "Jun 30, 2022",
@@ -1934,7 +1934,7 @@
     {
       "title": "Digital Minimalism: Choosing a Focused Life in a Noisy World",
       "author": "Newport, Cal",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549433350l/40672036._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/8507540-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549433350l/40672036._SY75_.jpg",
       "rating": "liked",
       "date_read": "Jun 29, 2022",
@@ -1944,7 +1944,7 @@
     {
       "title": "Dance Dance Dance",
       "author": "Murakami, Haruki",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1514582521l/17800._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/7886358-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1514582521l/17800._SY75_.jpg",
       "rating": "liked",
       "date_read": "Jun 29, 2022",
@@ -1954,7 +1954,7 @@
     {
       "title": "The Double",
       "author": "Dostoevsky, Fyodor",
-      "cover_url": "https://covers.openlibrary.org/b/id/869632-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/7901303-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388265212l/210190._SY75_.jpg",
       "rating": "avg rating    3.67",
       "date_read": "Jun 15, 2023",
@@ -1964,7 +1964,7 @@
     {
       "title": "Notes from Underground",
       "author": "Dostoevsky, Fyodor",
-      "cover_url": "https://covers.openlibrary.org/b/id/6908257-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/9415092-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657562670l/49455._SY75_.jpg",
       "rating": "avg rating    4.17",
       "date_read": "Jun 06, 2023",
@@ -1974,7 +1974,7 @@
     {
       "title": "Ikigai: The Japanese Secret to a Long and Happy Life / The Little Book of Lykke / Lagom: The Swedish Art of Balanced Living",
       "author": "Garcia Puigcerver, Hector",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636345522l/40534545._SX50_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/11300391-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636345522l/40534545._SX50_.jpg",
       "rating": "liked",
       "date_read": "Jul 30, 2021",
@@ -1984,7 +1984,7 @@
     {
       "title": "Men Without Women",
       "author": "Murakami, Haruki",
-      "cover_url": "https://covers.openlibrary.org/b/id/13768905-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/425969-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1483232988l/33652490._SX50_.jpg",
       "rating": "liked",
       "date_read": "Jul 27, 2023",
@@ -1994,7 +1994,7 @@
     {
       "title": "Man’s Search for Meaning",
       "author": "Frankl, Viktor E.",
-      "cover_url": "https://covers.openlibrary.org/b/id/465226-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/8516506-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1535419394l/4069._SY75_.jpg",
       "rating": "was",
       "date_read": "Jul 18, 2021",
@@ -2024,7 +2024,7 @@
     {
       "title": "The Death of Ivan Ilyich",
       "author": "Tolstoy, Leo",
-      "cover_url": "https://covers.openlibrary.org/b/id/11616112-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/419697-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407462195l/160374._SY75_.jpg",
       "rating": "was",
       "date_read": "Jul 11, 2021",
@@ -2034,7 +2034,7 @@
     {
       "title": "History of Julius Caesar",
       "author": "Abbott, Jacob",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385160178l/18889931._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/6946678-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385160178l/18889931._SY75_.jpg",
       "rating": "it",
       "date_read": "Jul 10, 2023",
@@ -2044,7 +2044,7 @@
     {
       "title": "Born a Crime: Stories From a South African Childhood",
       "author": "Noah, Trevor",
-      "cover_url": "https://covers.openlibrary.org/b/id/11621842-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/8294078-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473867911l/29780253._SY75_.jpg",
       "rating": "avg rating    4.49",
       "date_read": "Jul 08, 2023",
@@ -2074,7 +2074,7 @@
     {
       "title": "Scattered Minds: The Origins and Healing of Attention Deficit Disorder",
       "author": "Maté, Gabor",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549981519l/39899253._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/296952-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549981519l/39899253._SY75_.jpg",
       "rating": "was",
       "date_read": "Jul 04, 2021",
@@ -2084,7 +2084,7 @@
     {
       "title": "Artemis",
       "author": "Weir, Andy",
-      "cover_url": "https://covers.openlibrary.org/b/id/8235551-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/10212689-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1494273579l/34928122._SY75_.jpg",
       "rating": "was",
       "date_read": "Jul 02, 2023",
@@ -2094,7 +2094,7 @@
     {
       "title": "Stolen Focus: Why You Can't Pay Attention— and How to Think Deeply Again",
       "author": "Hari, Johann",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626718328l/57933306._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/12664855-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626718328l/57933306._SY75_.jpg",
       "rating": "it",
       "date_read": "Jan 28, 2023",
@@ -2114,7 +2114,7 @@
     {
       "title": "Flow: The Psychology of Optimal Experience",
       "author": "Csíkszentmihályi, Mihály",
-      "cover_url": "https://covers.openlibrary.org/b/id/767930-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/11041932-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432253110l/66354._SY75_.jpg",
       "rating": "liked",
       "date_read": "Jan 25, 2025",
@@ -2134,7 +2134,7 @@
     {
       "title": "The Stranger",
       "author": "Camus, Albert",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1738704267l/49552._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/13151269-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1738704267l/49552._SY75_.jpg",
       "rating": "liked",
       "date_read": "Jan 2021",
@@ -2154,7 +2154,7 @@
     {
       "title": "Wind, Sand and Stars",
       "author": "Saint-Exupéry, Antoine de",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328876428l/8837._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/967072-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328876428l/8837._SY75_.jpg",
       "rating": "was",
       "date_read": "Jan 04, 2024",
@@ -2184,7 +2184,7 @@
     {
       "title": "The Precipice",
       "author": "Ord, Toby",
-      "cover_url": "https://covers.openlibrary.org/b/id/9338949-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/8786809-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1579013316l/50485582._SY75_.jpg",
       "rating": "avg rating    3.97",
       "date_read": "Dec 28, 2021",
@@ -2194,7 +2194,7 @@
     {
       "title": "Doing Good Better: How Effective Altruism Can Help You Make a Difference",
       "author": "MacAskill, William",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1414351487l/23398748._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/7354620-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1414351487l/23398748._SY75_.jpg",
       "rating": "avg rating    4.19",
       "date_read": "Dec 28, 2021",
@@ -2224,7 +2224,7 @@
     {
       "title": "Make It Stick: The Science of Successful Learning",
       "author": "Brown, Peter C.",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631768711l/18770267._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/8188891-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631768711l/18770267._SY75_.jpg",
       "rating": "liked",
       "date_read": "Dec 20, 2022",
@@ -2254,7 +2254,7 @@
     {
       "title": "Scarborough",
       "author": "Hernandez, Catherine",
-      "cover_url": "https://covers.openlibrary.org/b/id/9665877-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/9152299-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1475300266l/31945128._SY75_.jpg",
       "rating": "liked",
       "date_read": "Aug 23, 2022",
@@ -2264,7 +2264,7 @@
     {
       "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
       "author": "Clear, James",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655988385l/40121378._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/12539702-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655988385l/40121378._SY75_.jpg",
       "rating": "it",
       "date_read": "Aug 13, 2021",
@@ -2274,7 +2274,7 @@
     {
       "title": "The Lean Startup",
       "author": "Ries, Eric",
-      "cover_url": "https://covers.openlibrary.org/b/id/7104760-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/12634577-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629999184l/10127019._SY75_.jpg",
       "rating": "avg rating    4.11",
       "date_read": "Aug 02, 2024",
@@ -2284,7 +2284,7 @@
     {
       "title": "Zero to One: Notes on Startups, or How to Build the Future",
       "author": "Thiel, Peter",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630663027l/18050143._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/9002334-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630663027l/18050143._SY75_.jpg",
       "rating": "avg rating    4.15",
       "date_read": "Aug 02, 2024",
@@ -2294,7 +2294,7 @@
     {
       "title": "The Three-Body Problem\n        (Remembrance of Earth’s Past, #1)",
       "author": "Liu, Cixin",
-      "cover_url": "https://covers.openlibrary.org/b/id/7893958-L.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/9157544-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415428227l/20518872._SY75_.jpg",
       "rating": "avg rating    4.08",
       "date_read": "Aug 02, 2024",
@@ -2304,7 +2304,7 @@
     {
       "title": "Peace Is Every Step: The Path of Mindfulness in Everyday Life",
       "author": "Thich Nhat Hanh",
-      "cover_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320544155l/14572._SY75_.jpg",
+      "cover_url": "https://covers.openlibrary.org/b/id/369473-L.jpg",
       "goodreads_cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320544155l/14572._SY75_.jpg",
       "rating": "it",
       "date_read": "Aug 02, 2022",

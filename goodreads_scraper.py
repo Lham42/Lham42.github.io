@@ -4,59 +4,107 @@ import json
 import os
 from datetime import datetime
 import time  # For adding delays between requests
+import re
+import urllib.parse
 
-def get_better_cover_url(title, author):
-    """Try to get a better cover image from Open Library"""
-    try:
-        # Clean up the title and author for the API
-        # Remove series information in parentheses
-        if '(' in title:
-            clean_title = title.split('(')[0].strip()
-        else:
-            clean_title = title.strip()
-            
-        # Handle author format (Last, First)
-        if ',' in author:
-            parts = author.split(',')
-            if len(parts) >= 2:
-                clean_author = f"{parts[1].strip()} {parts[0].strip()}"
-            else:
-                clean_author = author.strip()
-        else:
-            clean_author = author.strip()
-        
-        # URL encode for the API
-        clean_title = clean_title.replace(' ', '+')
-        clean_author = clean_author.replace(' ', '+')
-        
-        # Query Open Library
-        search_url = f"https://openlibrary.org/search.json?title={clean_title}&author={clean_author}"
-        print(f"Searching Open Library: {search_url}")
-        
-        response = requests.get(search_url)
-        data = response.json()
-        
-        if data.get('docs') and len(data['docs']) > 0:
-            # Get the first result's cover ID
-            cover_id = data['docs'][0].get('cover_i')
-            if cover_id:
-                # Return the large cover URL
-                cover_url = f"https://covers.openlibrary.org/b/id/{cover_id}-L.jpg"
-                print(f"Found better cover for '{clean_title}': {cover_url}")
-                return cover_url
-            
-            # If no cover_i, try ISBN
-            for isbn_field in ['isbn', 'lccn', 'oclc', 'olid']:
-                if data['docs'][0].get(isbn_field) and len(data['docs'][0][isbn_field]) > 0:
-                    identifier = data['docs'][0][isbn_field][0]
-                    cover_url = f"https://covers.openlibrary.org/b/{isbn_field}/{identifier}-L.jpg"
-                    print(f"Found ISBN cover for '{clean_title}': {cover_url}")
-                    return cover_url
-    except Exception as e:
-        print(f"Error getting better cover for {title}: {e}")
+def get_better_cover_url(title, author, existing_url=None):
+    """
+    Try multiple strategies to find a book cover from OpenLibrary.
     
-    print(f"No better cover found for '{title}'")
-    return None
+    Args:
+        title (str): Book title
+        author (str): Book author
+        existing_url (str, optional): Existing cover URL to fall back to
+        
+    Returns:
+        str: URL of the best available cover image
+    """
+    if not title or not author:
+        return existing_url
+    
+    # Clean up title and author
+    title = title.strip()
+    author = author.strip()
+    
+    # Remove series information from title (text in parentheses or after a colon)
+    clean_title = re.sub(r'\s*\([^)]*\)', '', title)
+    clean_title = re.sub(r'\s*:[^:]*$', '', clean_title).strip()
+    
+    # List of search strategies to try
+    strategies = [
+        # Strategy 1: Title + Author (exact)
+        lambda: search_by_title_author(title, author),
+        
+        # Strategy 2: Clean Title + Author (without series info)
+        lambda: search_by_title_author(clean_title, author),
+        
+        # Strategy 3: Title only (for cases where author format is problematic)
+        lambda: search_by_title_only(title),
+        
+        # Strategy 4: Clean Title only
+        lambda: search_by_title_only(clean_title),
+        
+        # Strategy 5: First part of title (for books with long titles)
+        lambda: search_by_title_only(title.split(':')[0].strip()),
+        
+        # Strategy 6: Author's last name + Title
+        lambda: search_by_author_last_name_title(author, title)
+    ]
+    
+    # Try each strategy in order
+    for strategy in strategies:
+        try:
+            cover_url = strategy()
+            if cover_url:
+                print(f"Found cover for '{title}' by {author}")
+                return cover_url
+            # Small delay to avoid rate limiting
+            time.sleep(0.1)
+        except Exception as e:
+            print(f"Error in cover search for '{title}': {e}")
+            continue
+    
+    # Fall back to existing URL if all strategies fail
+    return existing_url
+
+def search_by_title_author(title, author):
+    """Search OpenLibrary by title and author."""
+    query = f'title:"{urllib.parse.quote(title)}" author:"{urllib.parse.quote(author)}"'
+    return execute_search(query)
+
+def search_by_title_only(title):
+    """Search OpenLibrary by title only."""
+    query = f'title:"{urllib.parse.quote(title)}"'
+    return execute_search(query)
+
+def search_by_author_last_name_title(author, title):
+    """Search using author's last name and title."""
+    last_name = author.split()[-1] if ' ' in author else author
+    query = f'author:{urllib.parse.quote(last_name)} title:"{urllib.parse.quote(title)}"'
+    return execute_search(query)
+
+def execute_search(query):
+    """Execute the search against OpenLibrary API."""
+    url = f"https://openlibrary.org/search.json?q={query}&limit=10"
+    response = requests.get(url)
+    
+    if response.status_code != 200:
+        return None
+    
+    data = response.json()
+    if not data.get('docs') or len(data['docs']) == 0:
+        return None
+    
+    # Get the first result
+    book = data['docs'][0]
+    
+    # Check if it has a cover ID
+    if not book.get('cover_i'):
+        return None
+    
+    # Get the largest available cover
+    cover_id = book['cover_i']
+    return f"https://covers.openlibrary.org/b/id/{cover_id}-L.jpg"
 
 def scrape_goodreads_books(user_id, shelf="read"):
     """Scrape books from a Goodreads shelf and save to JSON"""
@@ -76,6 +124,8 @@ def scrape_goodreads_books(user_id, shelf="read"):
         except Exception as e:
             print(f"Error loading hidden books: {e}")
     
+    column-gap: 0;  /* Minimize space between columns */
+    column-gap: 0;  /* Minimize space between columns */
     print(f"Scraping Goodreads books for user {user_id}, shelf: {shelf}")
     
     # Add headers to make the request appear more like a regular browser
@@ -155,7 +205,7 @@ def scrape_goodreads_books(user_id, shelf="read"):
                     goodreads_cover = cover_element['src'] if cover_element and 'src' in cover_element.attrs else ""
                     
                     # Try to get a better cover from Open Library
-                    better_cover = get_better_cover_url(title, author)
+                    better_cover = get_better_cover_url(title, author, goodreads_cover)
                     cover_url = better_cover if better_cover else goodreads_cover
                     
                     # Try different rating selectors
